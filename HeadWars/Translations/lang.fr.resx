@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+	Microsoft ResX Schema
+
+	Version 2.0
+
+	The primary goals of this format is to allow a simple XML format
+	that is mostly human readable. The generation and parsing of the
+	various data types are done through the TypeConverter classes
+	associated with the data types.
+
+	Example:
+
+	... ado.net/XML headers & schema ...
+	<resheader name="resmimetype">text/microsoft-resx</resheader>
+	<resheader name="version">2.0</resheader>
+	<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+	<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+	<data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+	<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+	<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+		<value>[base64 mime encoded serialized .NET Framework object]</value>
+	</data>
+	<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+		<value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+		<comment>This is a comment</comment>
+	</data>
+
+	There are any number of "resheader" rows that contain simple
+	name/value pairs.
+
+	Each data row contains a name, and value. The row also contains a
+	type or mimetype. Type corresponds to a .NET class that support
+	text/value conversion through the TypeConverter architecture.
+	Classes that don't support this are serialized and stored with the
+	mimetype set.
+
+	The mimetype is used for serialized objects, and tells the
+	ResXResourceReader how to depersist the object. This is currently not
+	extensible. For a given mimetype the value must be set accordingly:
+
+	Note - application/x-microsoft.net.object.binary.base64 is the format
+	that the ResXResourceWriter will generate, however the reader can
+	read any of the formats listed below.
+
+	mimetype: application/x-microsoft.net.object.binary.base64
+	value   : The object must be serialized with
+			: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+	mimetype: application/x-microsoft.net.object.soap.base64
+	value   : The object must be serialized with
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+	mimetype: application/x-microsoft.net.object.bytearray.base64
+	value   : The object must be serialized into a byte array
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+	<xsd:element name="root" msdata:IsDataSet="true">
+	  <xsd:complexType>
+		<xsd:choice maxOccurs="unbounded">
+		  <xsd:element name="metadata">
+			<xsd:complexType>
+			  <xsd:sequence>
+				<xsd:element name="value" type="xsd:string" minOccurs="0" />
+			  </xsd:sequence>
+			  <xsd:attribute name="name" use="required" type="xsd:string" />
+			  <xsd:attribute name="type" type="xsd:string" />
+			  <xsd:attribute name="mimetype" type="xsd:string" />
+			  <xsd:attribute ref="xml:space" />
+			</xsd:complexType>
+		  </xsd:element>
+		  <xsd:element name="assembly">
+			<xsd:complexType>
+			  <xsd:attribute name="alias" type="xsd:string" />
+			  <xsd:attribute name="name" type="xsd:string" />
+			</xsd:complexType>
+		  </xsd:element>
+		  <xsd:element name="data">
+			<xsd:complexType>
+			  <xsd:sequence>
+				<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+				<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+			  </xsd:sequence>
+			  <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+			  <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+			  <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+			  <xsd:attribute ref="xml:space" />
+			</xsd:complexType>
+		  </xsd:element>
+		  <xsd:element name="resheader">
+			<xsd:complexType>
+			  <xsd:sequence>
+				<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+			  </xsd:sequence>
+			  <xsd:attribute name="name" type="xsd:string" use="required" />
+			</xsd:complexType>
+		  </xsd:element>
+		</xsd:choice>
+	  </xsd:complexType>
+	</xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+	<value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+	<value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+	<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+	<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="aiming" xml:space="preserve">
+	<value>Visée</value>
+  </data>
+  <data name="button_back" xml:space="preserve">
+	<value>Arrière</value>
+  </data>
+  <data name="character_selector" xml:space="preserve">
+	<value>Sélectionneur de personnages</value>
+  </data>
+  <data name="code" xml:space="preserve">
+	<value>Code</value>
+  </data>
+  <data name="codeerror_invalid" xml:space="preserve">
+	<value>Code Invalide</value>
+  </data>
+  <data name="create_account" xml:space="preserve">
+	<value>Créer</value>
+  </data>
+  <data name="credits" xml:space="preserve">
+	<value>Crédits</value>
+  </data>
+  <data name="credit_developer" xml:space="preserve">
+	<value>Développer</value>
+  </data>
+  <data name="credit_graphic" xml:space="preserve">
+	<value>Ingénieur graphique</value>
+  </data>
+  <data name="disabled" xml:space="preserve">
+	<value>Désactivé</value>
+  </data>
+  <data name="enabled" xml:space="preserve">
+	<value>Activé</value>
+  </data>
+  <data name="fullscreen" xml:space="preserve">
+	<value>Plein écran</value>
+  </data>
+  <data name="game_over" xml:space="preserve">
+	<value>Partie terminée</value>
+  </data>
+  <data name="highscore" xml:space="preserve">
+	<value>MEILLEUR SCORE</value>
+  </data>
+  <data name="invalid_login" xml:space="preserve">
+	<value>Information invalide</value>
+  </data>
+  <data name="language" xml:space="preserve">
+	<value>Language</value>
+  </data>
+  <data name="leave_game" xml:space="preserve">
+	<value>Quitter la partie</value>
+  </data>
+  <data name="level" xml:space="preserve">
+	<value>Niveau</value>
+  </data>
+  <data name="login" xml:space="preserve">
+	<value>Se connecter</value>
+  </data>
+  <data name="logout" xml:space="preserve">
+	<value>Se déconnecter</value>
+  </data>
+  <data name="menu" xml:space="preserve">
+	<value>Menu</value>
+  </data>
+  <data name="menu_redirect" xml:space="preserve">
+	<value>Chargement du menu principal dans {0} secondes</value>
+  </data>
+  <data name="modes" xml:space="preserve">
+	<value>Modes</value>
+  </data>
+  <data name="movement" xml:space="preserve">
+	<value>Mouvement</value>
+  </data>
+  <data name="new_account" xml:space="preserve">
+	<value>Nouveau compte</value>
+  </data>
+  <data name="new_game" xml:space="preserve">
+	<value>Nouvelle partie</value>
+  </data>
+  <data name="new_highscore" xml:space="preserve">
+	<value>NOUVEAU MEILLEUR SCORE</value>
+  </data>
+  <data name="nickerror_charquantity" xml:space="preserve">
+	<value>Le pseudonyme doit contenir
+au moins 3 caractère</value>
+  </data>
+  <data name="nickerror_exist" xml:space="preserve">
+	<value>Ce pseudonyme est déja utilisé</value>
+  </data>
+  <data name="nickerror_firstchar" xml:space="preserve">
+	<value>Le pseudonyme doit commencer
+par une lettre</value>
+  </data>
+  <data name="nickerror_notexist" xml:space="preserve">
+	<value>Ce pseudonyme n'est pas utilisé</value>
+  </data>
+  <data name="normal" xml:space="preserve">
+	<value>Normal</value>
+  </data>
+  <data name="options" xml:space="preserve">
+	<value>Options</value>
+  </data>
+  <data name="password" xml:space="preserve">
+	<value>Mot de passe</value>
+  </data>
+  <data name="play" xml:space="preserve">
+	<value>Jouer</value>
+  </data>
+  <data name="playerdescription_blue" xml:space="preserve">
+	<value>Le bleu est le ciel, la mer, l'oeuil de dieu, la queue du diable.</value>
+  </data>
+  <data name="playerdescription_green" xml:space="preserve">
+	<value>Le vert est la couleur principale du monde.</value>
+  </data>
+  <data name="playerdescription_pink" xml:space="preserve">
+	<value>Le rose n'est pas seulement une couleur, c'est une attitude.</value>
+  </data>
+  <data name="playerdescription_red" xml:space="preserve">
+	<value>Le rouge est la couleur de la vie. C'est le sang, la passion et la rage.</value>
+  </data>
+  <data name="playerdescription_yellow" xml:space="preserve">
+	<value>Le jaune est le soleil, la brillance de tout les jours.</value>
+  </data>
+  <data name="player_blue_name" xml:space="preserve">
+	<value>Requin de mer</value>
+  </data>
+  <data name="player_green_name" xml:space="preserve">
+	<value>Tremblement de terre</value>
+  </data>
+  <data name="player_pink_name" xml:space="preserve">
+	<value>Rose</value>
+  </data>
+  <data name="player_red_name" xml:space="preserve">
+	<value>Taureau Rouge</value>
+  </data>
+  <data name="player_yellow_name" xml:space="preserve">
+	<value>Seigneur du Soleil</value>
+  </data>
+  <data name="points" xml:space="preserve">
+	<value>Points</value>
+  </data>
+  <data name="pwerror_charquantity" xml:space="preserve">
+	<value>Le mot de passe doit contenir
+au moins 5 caractères.</value>
+  </data>
+  <data name="redistribute" xml:space="preserve">
+	<value>Redistribute</value>
+  </data>
+  <data name="redistribute_cost" xml:space="preserve">
+	<value>Redistributing skills costs 5 points.</value>
+  </data>
+  <data name="resume" xml:space="preserve">
+	<value>Reprendre</value>
+  </data>
+  <data name="score" xml:space="preserve">
+	<value>Score</value>
+  </data>
+  <data name="secret_code" xml:space="preserve">
+	<value>Code Secret</value>
+  </data>
+  <data name="select" xml:space="preserve">
+	<value>Selectionner</value>
+  </data>
+  <data name="skills" xml:space="preserve">
+	<value>Compétences</value>
+  </data>
+  <data name="skill_asteroid" xml:space="preserve">
+	<value>Gorge de Météore</value>
+  </data>
+  <data name="skill_asteroid_description" xml:space="preserve">
+	<value>+1 asteroide. (Espace)</value>
+  </data>
+  <data name="skill_bhenemyrange" xml:space="preserve">
+	<value>Enemies tombés</value>
+  </data>
+  <data name="skill_bhenemyrange_description" xml:space="preserve">
+	<value>Augmente le trou noir de 10% pour les énemies.</value>
+  </data>
+  <data name="skill_bhplayerrange" xml:space="preserve">
+	<value>Augmentation de l'entité</value>
+  </data>
+  <data name="skill_bhplayerrange_description" xml:space="preserve">
+	<value>Diminue le trou noir de 10% pour le joueur.</value>
+  </data>
+  <data name="skill_bullet" xml:space="preserve">
+	<value>Tireur du Far west</value>
+  </data>
+  <data name="skill_bullet_description" xml:space="preserve">
+	<value>Augmente la quantité de balle par 1.</value>
+  </data>
+  <data name="skill_explosion" xml:space="preserve">
+	<value>Héros</value>
+  </data>
+  <data name="skill_explosion_description" xml:space="preserve">
+	<value>L'Explosion ne tue pas les joueurs.</value>
+  </data>
+  <data name="skill_extrascore" xml:space="preserve">
+	<value>Rappel de score</value>
+  </data>
+  <data name="skill_extrascore_description" xml:space="preserve">
+	<value>+30% de points pour chaque énemies tués.</value>
+  </data>
+  <data name="skill_freeze" xml:space="preserve">
+	<value>Congelé</value>
+  </data>
+  <data name="skill_freze_description" xml:space="preserve">
+	<value>Congele les énemies pendant 15 secondes. (F)</value>
+  </data>
+  <data name="skill_hitmultiplier" xml:space="preserve">
+	<value>Fixe le bug</value>
+  </data>
+  <data name="skill_hitmultiplier_description" xml:space="preserve">
+	<value>Le multiplicateur n'est pas perdu pendant que l'énemie est frappé.</value>
+  </data>
+  <data name="skill_invisibility" xml:space="preserve">
+	<value>Méduse</value>
+  </data>
+  <data name="skill_invisibility_description" xml:space="preserve">
+	<value>Joueur intouchable pendant 15 secondes. (I)</value>
+  </data>
+  <data name="skill_life" xml:space="preserve">
+	<value>Immortel</value>
+  </data>
+  <data name="skill_life_description" xml:space="preserve">
+	<value>Joueur commence avec +1 de vie.</value>
+  </data>
+  <data name="skill_multiplier" xml:space="preserve">
+	<value>Multiplicateur</value>
+  </data>
+  <data name="skill_multiplier_description" xml:space="preserve">
+	<value>Augmente le multiplicateur de 1.</value>
+  </data>
+  <data name="skill_shootspeed" xml:space="preserve">
+	<value>Bip-Bip</value>
+  </data>
+  <data name="skill_shootspeed_description" xml:space="preserve">
+	<value>Diminue le rechargement de balle de 2ms.</value>
+  </data>
+  <data name="skill_teleport" xml:space="preserve">
+	<value>Voyageur de l'espace</value>
+  </data>
+  <data name="skill_teleport_description" xml:space="preserve">
+	<value>Téleporte le joueur. (Shift+Click)</value>
+  </data>
+  <data name="skill_tree" xml:space="preserve">
+	<value>Arbre de Compétences</value>
+  </data>
+  <data name="skill_tricktreat" xml:space="preserve">
+	<value>Des bonbons ou un sort</value>
+  </data>
+  <data name="skill_tricktreat_description" xml:space="preserve">
+	<value>Enemies ont leurs vies doublés, mais aussi leurs points.</value>
+  </data>
+  <data name="skill_velocity" xml:space="preserve">
+	<value>Vitesse de la lumière</value>
+  </data>
+  <data name="skill_velocity_description" xml:space="preserve">
+	<value>Augmente la rapidité du joueur de 25%.</value>
+  </data>
+  <data name="teacherdescription_furlan" xml:space="preserve">
+	<value>Rayon Javanizateur</value>
+  </data>
+  <data name="username" xml:space="preserve">
+	<value>Pseudonyme</value>
+  </data>
+  <data name="validate" xml:space="preserve">
+	<value>Validé</value>
+  </data>
+  <data name="winExperience" xml:space="preserve">
+	<value>Vous avez +{0} points d'éxpérience !</value>
+  </data>
+  <data name="music" xml:space="preserve">
+	<value>Music</value>
+  </data>
+  <data name="sound" xml:space="preserve">
+	<value>Son</value>
+  </data>
+  <data name="teacherdescription_jota" xml:space="preserve">
+	<value>Vous êtes juste aussi gros que vos rèves</value>
+  </data>
+  <data name="teacherdescription_daniel" xml:space="preserve">
+	<value>Personne</value>
+  </data>
+  <data name="teacherdescription_akepeu" xml:space="preserve">
+	<value>Vous vous trompez. Vous êtes juste une poupée.</value>
+  </data>
+  <data name="teacherdescription_mauricio" xml:space="preserve">
+	<value>Qui est ce gros stupide?</value>
+  </data>
+  <data name="teacherdescription_virgilio" xml:space="preserve">
+	<value>Maítre de la Sodomie</value>
+  </data>
+</root>
