@@ -71,7 +71,7 @@ namespace HeadWars
 
 				BarCodeGenerator generator = new BarCodeGenerator(settings);
 				QRCodeTexture = bitmapToTexture2D((Bitmap)generator.GenerateImage());
-				QrCodeRectangle = new Microsoft.Xna.Framework.Rectangle(3, 50, QRCodeTexture.Width - 5, QRCodeTexture.Height - 50);
+				QrCodeRectangle = new Microsoft.Xna.Framework.Rectangle(3, 30, QRCodeTexture.Width - 5, QRCodeTexture.Height - 30);
 			}
 		}
 
