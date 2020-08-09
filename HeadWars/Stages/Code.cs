@@ -46,16 +46,12 @@ namespace HeadWars
 			buttons[1].setPosition(0, 0, "left bottom");
 
 			// QR Code
-			string data = "";
 			DatabaseManager.Connect();
-			data = DatabaseManager.getCode();
+			string data = DatabaseManager.getCode();
 			DatabaseManager.Disconnect();
 
 			if (data == null)
-			{
 				QRCodeTexture = Graphic.no_code;
-				QrCodeRectangle = new Microsoft.Xna.Framework.Rectangle(0, 0, QRCodeTexture.Width, QRCodeTexture.Height);
-			}
 			else
 			{
 				BarcodeSettings settings = new BarcodeSettings
@@ -65,14 +61,16 @@ namespace HeadWars
 					ResolutionType = ResolutionType.UseDpi,
 					BackColor = System.Drawing.Color.White,
 					ForeColor = System.Drawing.Color.Black,
-					X = 3,
-					Data = data
+					X = 4,
+					Data = data,
+					DpiY = 1,
+					DpiX = 1
 				};
 
 				BarCodeGenerator generator = new BarCodeGenerator(settings);
 				QRCodeTexture = bitmapToTexture2D((Bitmap)generator.GenerateImage());
-				QrCodeRectangle = new Microsoft.Xna.Framework.Rectangle(3, 30, QRCodeTexture.Width - 5, QRCodeTexture.Height - 30);
 			}
+			QrCodeRectangle = new Microsoft.Xna.Framework.Rectangle(0, 0, QRCodeTexture.Width, QRCodeTexture.Height);
 		}
 
 		/// Bitmap to Texture2D
