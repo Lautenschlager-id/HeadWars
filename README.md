@@ -7,4 +7,4 @@
 
 #### Download
 - Patched version SOON
-- Old version is downloadable at https://lautenschlager-id.itch.io/head-wars
+- Old version is downloadable at https://lautenschlager.itch.io/head-wars
